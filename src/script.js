@@ -13,7 +13,7 @@ const scene = new THREE.Scene()
 // Object
 // Create an empty BufferGeometry
 const geometry = new THREE.BufferGeometry()
-const material = new THREE.MeshBasicMaterial({ color: 0xff0000, wireframe:true })
+const material = new THREE.MeshBasicMaterial({ color: 0x0000ff, wireframe:true })
 const mesh = new THREE.Mesh(geometry, material)
 
 // Create 50 triangles (450 values)
